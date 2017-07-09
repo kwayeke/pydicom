@@ -18,6 +18,7 @@ Then you can build the docs:
 
 ```
 cd doc && make html
+exit
 ```
 
 You should then be able to cd into `_build/html` on your local machine and preview with your webserver of choice
@@ -26,3 +27,5 @@ You should then be able to cd into `_build/html` on your local machine and previ
 cd doc/_build/html
 python -m http.server 9999
 ```
+
+Then open your browser to [http://127.0.0.1:9999](http://127.0.0.1:9999)
